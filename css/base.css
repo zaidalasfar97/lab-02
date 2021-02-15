@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body{
+    width: 100%;
+    text-align: center;
+    background:rgb(88, 192, 226);
+}
