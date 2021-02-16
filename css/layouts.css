@@ -1,10 +1,8 @@
-h1 {
+/* h1 {
   font-size: 40px;
   margin: 50px;
 }
-div:first-child img{ 
-    display:none; 
-}
+
 
 select{
     margin: 100px;
@@ -31,10 +29,64 @@ div {
     margin: 100px;
 }
 
-.photo-class{ 
-    display: none !important;
-}
 
 
+ */
+
+  /* body{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  main{
+      display: flex;
+  }
+    button{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+    }
+    #photo-template{
+      display:flex;
+      flex-direction: column;
+      width: 300px;
+    } */
+
+    
+    header ,footer {
+        font-size: 30px;
+        margin: 20px;
+    }
 
 
+    img {
+        width: 250px;
+        height: 250px ;
+         border: 1px solid black;
+         align-self: center;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        padding: 20px;
+
+    }
+
+    #photo-template {
+        width: 600px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    select {
+        font-size: 25px;
+        color: white;
+        background: rgb(36, 32, 32);
+        margin: 20px;
+    }
