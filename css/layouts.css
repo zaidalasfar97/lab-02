@@ -31,6 +31,10 @@ div {
     margin: 100px;
 }
 
+.photo-class{ 
+    display: none !important;
+}
+
 
 
 
